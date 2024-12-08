@@ -9,9 +9,10 @@ namespace All_In_One_Server.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        private readonly UserService _userService;
         public UserController()
         {
-                
+            _userService = new UserService();
         }
 
         [HttpGet]
@@ -21,8 +22,7 @@ namespace All_In_One_Server.Controllers
 
             try
             {
-                UserService userService = new UserService();
-                var result  = userService.GetAllUsers();
+                var result  = _userService.GetAllUsers();
                 if (result != null)
                 {
                     return Ok(result);
@@ -42,13 +42,14 @@ namespace All_In_One_Server.Controllers
         {
             try
             {
-
+                var result = _userService.SaveUsers(users);
+                return Ok(result);
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine($"{ex.Message}"); 
             }
-            return BadRequest(users);
+            return BadRequest("save user failed to DB");
         }
     }
 }

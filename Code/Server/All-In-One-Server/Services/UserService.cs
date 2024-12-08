@@ -5,15 +5,22 @@ namespace All_In_One_Server.Services
 {
     public class UserService
     {
+        private readonly UserRepository userRepository;
         public UserService()
         {
-                
+            userRepository = new UserRepository();
         }
 
         public List<User> GetAllUsers()
         {
-            UserRepository userRepository = new UserRepository();
+            
             return userRepository.GetAllUsersFromDatabase();
         }
+
+        public bool SaveUsers(List<User> newUsers)
+        {
+           return  userRepository.SaveAllUsersDatabase(newUsers);
+        }
     }
+
 }
