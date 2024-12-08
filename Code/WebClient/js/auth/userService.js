@@ -98,10 +98,10 @@ export function addBooking(userId, booking) {
 
  async function saveUsers() {
     sessionStorage.setItem('users', JSON.stringify(users));
-     await saveUsersToServer();
-}
+    return await saveUsersToServer(); 
+ }
 
-async function saveUsersToServer() {
+async function saveUsersToServer()  {
     try {
         debugger;
         // Sending the users data to the backend
