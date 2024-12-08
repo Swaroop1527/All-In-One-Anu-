@@ -1,18 +1,18 @@
 {
-  "users": [
+  "Users": [
     {
-      "id": 1,
-      "username": "john_doe",
-      "email": "john@example.com",
-      "password": "password123",
-      "profile": {
-        "fullName": "John Doe",
-        "phone": "+1-555-0123",
-        "preferences": {
-          "notifications": true,
-          "newsletter": true
+      "Id": 1,
+      "Username": "john_doe",
+      "Email": "john@example.com",
+      "Password": "password123",
+      "Profile": {
+        "FullName": "John Doe",
+        "Phone": "+1-555-0123",
+        "Preferences": {
+          "Notifications": true,
+          "Newsletter": true
         },
-        "bookingHistory": []
+        "BookingHistory": []
       }
     }
   ]
