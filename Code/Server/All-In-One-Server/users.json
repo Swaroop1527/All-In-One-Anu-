@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "profile": {
+        "fullName": "John Doe",
+        "phone": "+1-555-0123",
+        "preferences": {
+          "notifications": true,
+          "newsletter": true
+        },
+        "bookingHistory": []
+      }
+    }
+  ]
+}

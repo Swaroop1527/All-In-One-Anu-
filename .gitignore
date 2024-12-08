@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Code/Server/All-In-One-Server/bin/Debug/net7.0
+/Code/Server/.vs
+/Code/Server/All-In-One-Server/obj
