@@ -43,9 +43,9 @@ export function getUserByEmail(email) {
     return users.find(user => user.email === email);
 }
 
-export function createUser(userData) {
+export async function createUser(userData) {
     const newUser = {
-        id: users.length + 1,
+        id: Math.floor(Math.random() * 1000000),
         ...userData,
         profile: {
             fullName: "",
@@ -59,7 +59,7 @@ export function createUser(userData) {
     };
     
     users.push(newUser);
-    saveUsers();
+    await saveUsers();
     console.log('Current users after registration:', JSON.parse(sessionStorage.getItem('users')));
     return newUser;
 }
@@ -96,9 +96,9 @@ export function addBooking(userId, booking) {
     return user;
 }
 
- function saveUsers() {
+ async function saveUsers() {
     sessionStorage.setItem('users', JSON.stringify(users));
-     saveUsersToServer();
+     await saveUsersToServer();
 }
 
 async function saveUsersToServer() {
@@ -119,12 +119,15 @@ async function saveUsersToServer() {
         }
 
         // Parse the JSON response
+        debugger;
         const data = await response.json();
         
         // Successfully saved the users
         console.log('Users saved successfully:', data);
     } catch (error) {
+        debugger;
         // Handle errors (e.g., network issues or backend problems)
+        return false;
         console.error('Error saving users:', error);
     }
 }
