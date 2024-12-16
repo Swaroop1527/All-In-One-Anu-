@@ -47,15 +47,24 @@ export async function createUser(userData) {
     const newUser = {
         id: Math.floor(Math.random() * 1000000),
         ...userData,
-        profile: {
-            fullName: "",
-            phone: "",
-            preferences: {
-                notifications: true,
-                newsletter: false
-            },
-            bookingHistory: []
-        }
+        Bookings:[
+            {
+                id: Math.floor(Math.random() * 1000000),
+                UserId:1,
+                Title:'',
+                Description:''
+            }
+        ]
+
+        // profile: {
+        //     fullName: "",
+        //     phone: "",
+        //     preferences: {
+        //         notifications: true,
+        //         newsletter: false
+        //     },
+        //     bookingHistory: []
+        // }
     };
     
     users.push(newUser);

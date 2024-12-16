@@ -8,7 +8,9 @@ namespace All_In_One_Server.Models
         public string Username { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public Profile Profile { get; set; }
+       // public Profile Profile { get; set; }
+
+        public List<BookingHistory> Bookings { get; set; }  
     }
 
 }

@@ -1,5 +1,7 @@
-﻿using All_In_One_Server.Models;
+﻿using All_In_One_Server.DataDB;
+using All_In_One_Server.Models;
 using Newtonsoft.Json;
+using System;
 using System.Text.Json.Serialization;
 
 namespace All_In_One_Server.Repositories
@@ -12,42 +14,51 @@ namespace All_In_One_Server.Repositories
 
             try
             {
-                string currentDirectory = Directory.GetCurrentDirectory();
-                var combinedPath = Path.Combine(currentDirectory, "users.json");
-                UserWrapper? usersWrap = JsonConvert.DeserializeObject<UserWrapper>(File.ReadAllText(combinedPath));
-                users = usersWrap.Users;
-                Console.WriteLine(currentDirectory);
-                return users;
-               
+                using (AllDbContext db = new AllDbContext())
+                {
+                    db.Database.EnsureDeleted();
+                    db.Database.EnsureCreated();
+                    return db.Users.ToList();
+                }
+                //string currentDirectory = Directory.GetCurrentDirectory();
+                //var combinedPath = Path.Combine(currentDirectory, "users.json");
+                //UserWrapper? usersWrap = JsonConvert.DeserializeObject<UserWrapper>(File.ReadAllText(combinedPath));
+                //users = usersWrap.Users;
+                //Console.WriteLine(currentDirectory);
+                //return users;
+
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
             }
             return users;
-           
+
         }
 
         public bool SaveAllUsersDatabase(List<User> newUsers)
         {
             try
             {
-                List<User> existingUsers = GetAllUsersFromDatabase();
-                foreach (var newUser in newUsers)
+                using (var dbContext = new AllDbContext())
                 {
-                    if (!existingUsers.Any(user => user.Id == newUser.Id))
-                    {
-                        existingUsers.Add(newUser);
-                    }
-                }
+                    dbContext.Database.EnsureDeleted();
+                    dbContext.Database.EnsureCreated();
+                    List<User> existingUsers = dbContext.Users.ToList();
 
-                string currentDirectory = Directory.GetCurrentDirectory();
-                var combinedPath = Path.Combine(currentDirectory, "users.json");
-                var updatedUsersWrap = new UserWrapper { Users = existingUsers };
-                File.WriteAllText(combinedPath, JsonConvert.SerializeObject(updatedUsersWrap, Formatting.Indented));
+                    foreach (var newUser in newUsers)
+                    {
+                        if (!existingUsers.Any(user => user.Id == newUser.Id))
+                        {
+                            dbContext.Users.Add(newUser);
+                        }
+                    }
+                    dbContext.SaveChanges();
+                }
 
                 return true;
             }
+
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
