@@ -95,11 +95,11 @@ export function addBooking(userId, booking) {
     const user = getUserById(userId);
     if (!user) return null;
     
-    user.profile.bookingHistory.push({
-        id: `B${Date.now()}`,
-        ...booking,
-        status: 'upcoming'
-    });
+    // user.profile.bookingHistory.push({
+    //     id: `B${Date.now()}`,
+    //     ...booking,
+    //     status: 'upcoming'
+    // });
     
     saveUsers();
     return user;
