@@ -1,0 +1,146 @@
+{
+  "bengaluru": [
+    {
+      "id": "blr-a-1",
+      "name": "Lalbagh Botanical Garden Tour",
+      "image": "https://i.ytimg.com/vi/Dh2ZSS0zomc/maxresdefault.jpg",
+      "price": "$20/person",
+      "rating": 4.5,
+      "duration": "3 hours",
+      "description": "Guided tour of historic botanical gardens with rare plants",
+      "coordinates": {
+        "lat": 12.9507,
+        "lng": 77.5848
+      },
+      "type": "activity"
+    },
+    {
+      "id": "blr-a-2",
+      "name": "Bangalore Palace Visit",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekGY04KbciqKHS4CfY74WvtpuLYm577qrew&s",
+      "price": "$30/person",
+      "rating": 4.6,
+      "duration": "2 hours",
+      "description": "Explore the majestic Bangalore Palace and its architecture",
+      "coordinates": {
+        "lat": 12.9988,
+        "lng": 77.5921
+      },
+      "type": "activity"
+    },
+    {
+      "id": "blr-a-3",
+      "name": "Nandi Hills Sunrise Trek",
+      "image": "https://escape2explore.s3.ap-south-1.amazonaws.com/UpdatedMedia/1f591008-94f8-427c-889a-056af35eb792.png",
+      "price": "$25/person",
+      "rating": 4.7,
+      "duration": "4 hours",
+      "description": "Early morning trek to witness spectacular sunrise",
+      "coordinates": {
+        "lat": 13.3702,
+        "lng": 77.6835
+      },
+      "type": "activity"
+    },
+    {
+      "id": "blr-a-4",
+      "name": "Cubbon Park Cycling Tour",
+      "image": "https://i0.wp.com/blog.bumsonthesaddle.com/wp-content/uploads/2018/07/img_b1ed0b527917c0abe43ed96b2288c64f_1474107722757_original.jpg",
+      "price": "$15/person",
+      "rating": 4.4,
+      "duration": "2 hours",
+      "description": "Guided cycling tour through the heart of Bangalore",
+      "coordinates": {
+        "lat": 12.9763,
+        "lng": 77.5929
+      },
+      "type": "activity"
+    },
+    {
+      "id": "blr-a-5",
+      "name": "Food Trail in VV Puram",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCCNKGRqqFNcDNsWMAUkdwnRF9zBtT4elBOQ&s",
+      "price": "$35/person",
+      "rating": 4.8,
+      "duration": "3 hours",
+      "description": "Culinary journey through famous food street",
+      "coordinates": {
+        "lat": 12.9516,
+        "lng": 77.5724
+      },
+      "type": "activity"
+    }
+  ],
+  "hyderabad": [
+    {
+      "id": "hyd-a-1",
+      "name": "Charminar Heritage Walk",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR5-xzkQi34u8sWhLF-M4S1sJ_kHeWKmsLAA&s",
+      "price": "$25/person",
+      "rating": 4.6,
+      "duration": "3 hours",
+      "description": "Historical walking tour of Old City landmarks",
+      "coordinates": {
+        "lat": 17.3616,
+        "lng": 78.4747
+      },
+      "type": "activity"
+    },
+    {
+      "id": "hyd-a-2",
+      "name": "Golconda Fort Sound & Light Show",
+      "image": "https://telanganatourism.gov.in/assets/images/packages/sound-lightshow/GolcondThumb.jpg",
+      "price": "$20/person",
+      "rating": 4.7,
+      "duration": "2 hours",
+      "description": "Evening show highlighting fort's history",
+      "coordinates": {
+        "lat": 17.3833,
+        "lng": 78.4011
+      },
+      "type": "activity"
+    },
+    {
+      "id": "hyd-a-3",
+      "name": "Ramoji Film City Tour",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbneQUHxDZw4BTvdIfUHVs5a_R8n9AgogfuQ&s",
+      "price": "$45/person",
+      "rating": 4.5,
+      "duration": "8 hours",
+      "description": "Full-day tour of world's largest film studio complex",
+      "coordinates": {
+        "lat": 17.2543,
+        "lng": 78.6808
+      },
+      "type": "activity"
+    },
+    {
+      "id": "hyd-a-4",
+      "name": "Biryani Making Workshop",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01t4u0ZST9GUECQfpcyJ5v-YOYUnpOt3NuQ&s",
+      "price": "$40/person",
+      "rating": 4.8,
+      "duration": "3 hours",
+      "description": "Learn to cook authentic Hyderabadi biryani",
+      "coordinates": {
+        "lat": 17.4156,
+        "lng": 78.4751
+      },
+      "type": "activity"
+    },
+    {
+      "id": "hyd-a-5",
+      "name": "Pearl Market Shopping Tour",
+      "image": "https://www.shoutlo.com/uploads/articles/item-header-img-begum-bazaar.jpg",
+      "price": "$30/person",
+      "rating": 4.4,
+      "duration": "4 hours",
+      "description": "Guided tour of famous pearl markets",
+      "coordinates": {
+        "lat": 17.3604,
+        "lng": 78.4736
+      },
+      "type": "activity"
+    }
+  ]
+}

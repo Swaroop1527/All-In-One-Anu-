@@ -1,10 +1,34 @@
-import { hotels, activities, transport } from './data/dummyData.js';
+import { getAllDestinations } from './data/dummyData.js';
+import { loadData } from './data/dummyData.js';
 
 export function initializeBooking() {
+    const destinationInput = document.getElementById('destination');
+    setupDestinationAutocomplete(destinationInput);
+    
     const searchButton = document.querySelector('.search-button');
     searchButton.addEventListener('click', handleBookingSearch);
 }
 
+async function setupDestinationAutocomplete(input) {
+   await loadData();
+    const availableDestinations = getAllDestinations().map(city => 
+        city.charAt(0).toUpperCase() + city.slice(1)
+    );
+    
+    const datalist = document.createElement('datalist');
+    datalist.id = 'destinations-list';
+    
+    availableDestinations.forEach(city => {
+        const option = document.createElement('option');
+        option.value = city;
+        datalist.appendChild(option);
+    });
+    
+    document.body.appendChild(datalist);
+    input.setAttribute('list', 'destinations-list');
+}
+
+// ... rest of the code remains the same ...
 function handleBookingSearch(e) {
     e.preventDefault();
 

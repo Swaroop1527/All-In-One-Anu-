@@ -1,0 +1,110 @@
+{
+  "bengaluru": [
+    {
+      "id": "blr-t-1",
+      "name": "Airport Premium Transfer",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn4mI3thQXsE59S5XwkaASFnyePB0qX9PcMQ&s",
+      "price": "$40/trip",
+      "rating": 4.7,
+      "type": "transfer",
+      "description": "Luxury airport transfers in premium sedans",
+      "coordinates": {
+        "lat": 13.1989,
+        "lng": 77.7068
+      }
+    },
+    {
+      "id": "blr-t-2",
+      "name": "City Day Tour Service",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq8STTIRF4yjoijCUJqt0pNJmBPOya42ICyA&s",
+      "price": "$80/day",
+      "rating": 4.6,
+      "type": "tour",
+      "description": "Customizable city tours with professional driver",
+      "coordinates": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      }
+    },
+    {
+      "id": "blr-t-3",
+      "name": "Weekend Getaway Transport",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR73yXTf6tZPVRI0ACGqGKd_YcuENcMmuIHfw&s",
+      "price": "$120/day",
+      "rating": 4.8,
+      "type": "tour",
+      "description": "Transport for Mysore, Coorg, and other nearby destinations",
+      "coordinates": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      }
+    },
+    {
+      "id": "blr-t-4",
+      "name": "Luxury Van Service",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJmVVSlvdexhTcX3j38hEQarm5w0ZY_OhwTg&s",
+      "price": "$150/day",
+      "rating": 4.9,
+      "type": "group",
+      "description": "Group transport in luxury vans with amenities",
+      "coordinates": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      }
+    }
+  ],
+  "hyderabad": [
+    {
+      "id": "hyd-t-1",
+      "name": "Heritage Sites Tour",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9jhkTwNP8sMZkKoDPxwc56kve5hSEq-vqLw&s",
+      "price": "$50/day",
+      "rating": 4.5,
+      "type": "tour",
+      "description": "Visit all major heritage sites with expert guide",
+      "coordinates": {
+        "lat": 17.3850,
+        "lng": 78.4867
+      }
+    },
+    {
+      "id": "hyd-t-2",
+      "name": "Airport Luxury Transfer",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfefvmnNlGWh7XRVEQpJsKjPcZuxyfxjAeLw&s",
+      "price": "$45/trip",
+      "rating": 4.7,
+      "type": "transfer",
+      "description": "Premium airport transfers with meet and greet",
+      "coordinates": {
+        "lat": 17.2403,
+        "lng": 78.4294
+      }
+    },
+    {
+      "id": "hyd-t-3",
+      "name": "Group Sightseeing Tour",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXtAou9fNBUg35UPfir7B3jMQ5x5wCZwZ_Wg&s",
+      "price": "$35/person",
+      "rating": 4.6,
+      "type": "group",
+      "description": "Shared sightseeing tours of major attractions",
+      "coordinates": {
+        "lat": 17.3850,
+        "lng": 78.4867
+      }
+    },
+    {
+      "id": "hyd-t-4",
+      "name": "Corporate Transport Service",
+      "image": "https://ik.imagekit.io/wx5dqb8qkk/service/service-1699034740012.jpg?tr=w-700",
+      "price": "$100/day",
+      "rating": 4.8,
+      "type": "business",
+      "description": "Professional transport for business travelers",
+      "coordinates": {
+        "lat": 17.4456,
+        "lng": 78.3812
+      }
+    }
+  ]
+}

@@ -1,32 +1,31 @@
-import { hotels, activities, transport } from './data/dummyData.js';
+import { getDestinationData, getServicesByType } from './data/dummyData.js';
 import { getCurrentUser } from './auth/authService.js';
 
-document.addEventListener('DOMContentLoaded', () => {
+
+document.addEventListener('DOMContentLoaded', async () => {
+    debugger;
     const params = new URLSearchParams(window.location.search);
     const serviceType = params.get('serviceType');
     const destination = params.get('destination');
     const dates = params.get('dates');
 
-    let searchResults;
-    switch(serviceType) {
-        case 'hotel':
-            searchResults = hotels;
-            break;
-        case 'activities':
-            searchResults = activities;
-            break;
-        case 'transport':
-            searchResults = transport;
-            break;
-        default:
-            searchResults = [...hotels, ...activities, ...transport];
+    if (!destination) {
+        //showNoResults();
+        return;
     }
 
+    const searchResults = await getServicesByType(destination, serviceType);
+    debugger;
+    if (!searchResults.length) {
+        //showNoResults();
+        return;
+    }
+
+  
     displaySearchResults(searchResults);
     initializeSorting(searchResults);
     displayUserProfile();
 });
-
 function displaySearchResults(results) {
     const resultsGrid = document.getElementById('results-grid');
     resultsGrid.innerHTML = '';
@@ -105,3 +104,5 @@ function displayUserProfile() {
         });
     }
 }
+
+// ... rest of the code remains the same ...

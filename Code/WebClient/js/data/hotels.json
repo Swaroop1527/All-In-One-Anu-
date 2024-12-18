@@ -1,0 +1,522 @@
+{
+  "bengaluru": [
+    {
+      "id": "blr-h-1",
+      "name": "The Leela Palace Bengaluru",
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+      "price": "$299/night",
+      "rating": 4.8,
+      "location": "Old Airport Road",
+      "description": "Luxury 5-star hotel with traditional architecture and royal gardens",
+      "coordinates": {
+        "lat": 12.9606,
+        "lng": 77.6484
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "blr-h-2",
+      "name": "ITC Gardenia",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d",
+      "price": "$250/night",
+      "rating": 4.7,
+      "location": "Residency Road",
+      "description": "Business luxury hotel in central Bangalore with world-class dining",
+      "coordinates": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "blr-h-3",
+      "name": "Taj West End",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+      "price": "$280/night",
+      "rating": 4.9,
+      "location": "Race Course Road",
+      "description": "Heritage hotel set in beautiful gardens with colonial charm",
+      "coordinates": {
+        "lat": 12.9825,
+        "lng": 77.5946
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "blr-h-4",
+      "name": "Shangri-La Bengaluru",
+      "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39",
+      "price": "$230/night",
+      "rating": 4.6,
+      "location": "Palace Road",
+      "description": "Modern luxury hotel with panoramic city views",
+      "coordinates": {
+        "lat": 12.9757,
+        "lng": 77.5951
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "blr-h-5",
+      "name": "The Oberoi Bengaluru",
+      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+      "price": "$270/night",
+      "rating": 4.8,
+      "location": "MG Road",
+      "description": "Luxury hotel with award-winning restaurants and spa",
+      "coordinates": {
+        "lat": 12.9722,
+        "lng": 77.6234
+      },
+      "type": "hotel"
+    }
+  ],
+  "hyderabad": [
+    {
+      "id": "hyd-h-1",
+      "name": "Taj Falaknuma Palace",
+      "image": "https://bradajohnson.net/wp-content/uploads/2017/01/IMG_1547_Aurora2017_HDR-2.jpg",
+      "price": "$399/night",
+      "rating": 4.9,
+      "location": "Engine Bowli",
+      "description": "Former palace of the Nizam, now a luxury heritage hotel",
+      "coordinates": {
+        "lat": 17.3314,
+        "lng": 78.4680
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "hyd-h-2",
+      "name": "ITC Kohenur",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+      "price": "$280/night",
+      "rating": 4.7,
+      "location": "HITEC City",
+      "description": "Modern luxury hotel in the heart of tech hub",
+      "coordinates": {
+        "lat": 17.4256,
+        "lng": 78.3463
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "hyd-h-3",
+      "name": "Park Hyatt Hyderabad",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO8lq5ynhqRRM4Lhq1ty8xgR9ewkJgV7J6-A&s",
+      "price": "$250/night",
+      "rating": 4.6,
+      "location": "Banjara Hills",
+      "description": "Contemporary luxury hotel with fine dining",
+      "coordinates": {
+        "lat": 17.4156,
+        "lng": 78.4347
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "hyd-h-4",
+      "name": "Novotel Hyderabad Convention Centre",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpP8xCOPfpF1HfFillToBM0AZOieAFKwoyuw&s",
+      "price": "$180/night",
+      "rating": 4.5,
+      "location": "HITEC City",
+      "description": "Business hotel with convention facilities",
+      "coordinates": {
+        "lat": 17.4269,
+        "lng": 78.3752
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "hyd-h-5",
+      "name": "Trident Hyderabad",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2i32IC1ikLLkLZPCOmZyFthGLaa2bU0MegA&s",
+      "price": "$220/night",
+      "rating": 4.7,
+      "location": "HITEC City",
+      "description": "Contemporary luxury hotel with city views",
+      "coordinates": {
+        "lat": 17.4275,
+        "lng": 78.3859
+      },
+      "type": "hotel"
+    }
+  ],
+  "chennai": [
+    {
+      "id": "chn-h-1",
+      "name": "ITC Grand Chola",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrWpYvIK6OUakMxxxd3xSnZvXKXlt3RKZacw&s",
+      "price": "$270/night",
+      "rating": 4.8,
+      "location": "Guindy",
+      "description": "Luxury hotel inspired by Chola architecture",
+      "coordinates": {
+        "lat": 13.0127,
+        "lng": 80.2707
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "chn-h-2",
+      "name": "The Leela Palace Chennai",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV5YaIv_GfXo-CmBEpn_eeYwRFoDgikMrD7A&s",
+      "price": "$290/night",
+      "rating": 4.9,
+      "location": "MRC Nagar",
+      "description": "Seafront luxury hotel with spectacular views",
+      "coordinates": {
+        "lat": 13.0169,
+        "lng": 80.2792
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "chn-h-3",
+      "name": "Taj Coromandel",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGKZs6AL5i5L7Osx5x4NMttsaPf8pl2AxHdw&s",
+      "price": "$250/night",
+      "rating": 4.7,
+      "location": "Nungambakkam",
+      "description": "Classic luxury hotel in the heart of Chennai",
+      "coordinates": {
+        "lat": 13.0569,
+        "lng": 80.2425
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "chn-h-4",
+      "name": "The Park Chennai",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHfEwmubKwFjVS49hTGIXX5B71lA7wXw6zeQ&s",
+      "price": "$180/night",
+      "rating": 4.5,
+      "location": "Anna Salai",
+      "description": "Contemporary hotel with modern amenities",
+      "coordinates": {
+        "lat": 13.0598,
+        "lng": 80.2619
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "chn-h-5",
+      "name": "Crowne Plaza Chennai Adyar Park",
+      "image": "https://www.hotelsofchennai.com/data/Pics/OriginalPhoto/13189/1318916/1318916770/pic-crowne-plaza-adyar-park-hotel-chennai-39.JPEG",
+      "price": "$200/night",
+      "rating": 4.6,
+      "location": "Alwarpet",
+      "description": "Business hotel with premium facilities",
+      "coordinates": {
+        "lat": 13.0334,
+        "lng": 80.2497
+      },
+      "type": "hotel"
+    }
+  ],
+  "delhi": [
+    {
+      "id": "del-h-1",
+      "name": "The Imperial",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/50/f7/4c/the-imperial-new-delhi.jpg?w=1200&h=-1&s=1",
+      "price": "$350/night",
+      "rating": 4.9,
+      "location": "Connaught Place",
+      "description": "Historic 5-star luxury hotel with colonial charm",
+      "coordinates": {
+        "lat": 28.6292,
+        "lng": 77.2183
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "del-h-2",
+      "name": "The Oberoi New Delhi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIZ4UGxbCMt9DGESQWGKcFapi8XeMLdTxfLw&s",
+      "price": "$380/night",
+      "rating": 4.8,
+      "location": "Dr. Zakir Hussain Marg",
+      "description": "Contemporary luxury with views of Humayun's Tomb",
+      "coordinates": {
+        "lat": 28.6019,
+        "lng": 77.2387
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "del-h-3",
+      "name": "Taj Palace",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCnbETz7j9qoJrq-5hRE_vEG3WOPY5sQWYPw&s",
+      "price": "$300/night",
+      "rating": 4.7,
+      "location": "Diplomatic Enclave",
+      "description": "Luxury hotel in diplomatic area with premium amenities",
+      "coordinates": {
+        "lat": 28.6011,
+        "lng": 77.1723
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "del-h-4",
+      "name": "The Lodhi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtt9YsoaZlEQg0h2LkGGX5wVTgUqDgYi7kyg&s",
+      "price": "$400/night",
+      "rating": 4.9,
+      "location": "Lodhi Road",
+      "description": "Contemporary luxury resort with private plunge pools",
+      "coordinates": {
+        "lat": 28.5918,
+        "lng": 77.2373
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "del-h-5",
+      "name": "ITC Maurya",
+      "image": "https://i0.wp.com/www.manjulikapramod.com/wp-content/uploads/2016/04/ITC-Maurya-New-Delhi.jpg?ssl=1",
+      "price": "$320/night",
+      "rating": 4.8,
+      "location": "Diplomatic Enclave",
+      "description": "Luxury hotel with award-winning restaurants",
+      "coordinates": {
+        "lat": 28.6009,
+        "lng": 77.1715
+      },
+      "type": "hotel"
+    }
+  ],
+  "kolkata": [
+    {
+      "id": "kol-h-1",
+      "name": "The Oberoi Grand",
+      "image": "https://www.oberoihotels.com/-/media/oberoi-hotels/home-detail/grand-kolkata.png?w=906&hash=154acd6948a34a0cebdfa0478172157a",
+      "price": "$300/night",
+      "rating": 4.8,
+      "location": "Jawaharlal Nehru Road",
+      "description": "Luxury hotel with colonial architecture and modern amenities",
+      "coordinates": {
+        "lat": 22.5626,
+        "lng": 88.3522
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "kol-h-2",
+      "name": "Taj Bengal",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvEc-2AMJvOJXZiTXuwd2j808lD1S7SaA6Bg&s",
+      "price": "$280/night",
+      "rating": 4.7,
+      "location": "Alipore",
+      "description": "Luxury hotel with lush gardens and fine dining options",
+      "coordinates": {
+        "lat": 22.5335,
+        "lng": 88.3282
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "kol-h-3",
+      "name": "ITC Royal Bengal",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/3b/8f/04/itc-royal-bengal.jpg?w=1200&h=-1&s=1",
+      "price": "$320/night",
+      "rating": 4.9,
+      "location": "EM Bypass",
+      "description": "Modern luxury hotel with grand interiors and exquisite dining",
+      "coordinates": {
+        "lat": 22.5345,
+        "lng": 88.3963
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "kol-h-4",
+      "name": "Hyatt Regency Kolkata",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR22JEy37yuSGxccMo67CexhYD9HGnQLazJUg&s",
+      "price": "$250/night",
+      "rating": 4.6,
+      "location": "Salt Lake City",
+      "description": "Contemporary hotel with spacious rooms and a luxury spa",
+      "coordinates": {
+        "lat": 22.5830,
+        "lng": 88.4157
+      },
+      "type": "hotel"
+    }
+  ],
+  "goa": [
+    {
+      "id": "goa-h-1",
+      "name": "The Leela Goa",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/d4/f4/4c/the-leela-goa.jpg?w=1200&h=-1&s=1",
+      "price": "$350/night",
+      "rating": 4.9,
+      "location": "Mobor Beach",
+      "description": "Beachfront luxury resort with serene lagoons",
+      "coordinates": {
+        "lat": 15.1588,
+        "lng": 73.9428
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "goa-h-2",
+      "name": "Taj Exotica Resort & Spa",
+      "image": "https://pix10.agoda.net/hotelImages/739/7395/7395_14021014380018293772.jpg?ca=2&ce=1&s=414x232",
+      "price": "$400/night",
+      "rating": 4.8,
+      "location": "Benaulim Beach",
+      "description": "Luxury beachfront resort with Goan architecture",
+      "coordinates": {
+        "lat": 15.2541,
+        "lng": 73.9470
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "goa-h-3",
+      "name": "Grand Hyatt Goa",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/330281475.jpg?k=8a8327ac1d4e38831b091c30085c5ee3951f0827073a79269a3fee5462a8112c&o=&hp=1",
+      "price": "$370/night",
+      "rating": 4.7,
+      "location": "Bambolim Bay",
+      "description": "Luxury resort with water sports and fine dining",
+      "coordinates": {
+        "lat": 15.4631,
+        "lng": 73.8333
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "goa-h-4",
+      "name": "Alila Diwa Goa",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiJ3YYtOkFYDJefGCWXpCoaRcTtSpBYDnetQ&s",
+      "price": "$300/night",
+      "rating": 4.6,
+      "location": "Majorda",
+      "description": "Luxury boutique hotel with lush greenery and peaceful vibes",
+      "coordinates": {
+        "lat": 15.3173,
+        "lng": 73.9481
+      },
+      "type": "hotel"
+    }
+  ],
+  "agra": [
+    {
+      "id": "agr-h-1",
+      "name": "The Oberoi Amarvilas",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9VelxyGwQnAHaC60QESSa4Mxsu-nWL_mOyw&s",
+      "price": "$500/night",
+      "rating": 5.0,
+      "location": "Taj East Gate Road",
+      "description": "Luxury hotel with views of the Taj Mahal",
+      "coordinates": {
+        "lat": 27.1753,
+        "lng": 78.0421
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "agr-h-2",
+      "name": "ITC Mughal",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlguaNklRtV1YwaS38jVKDev7M8-y1gktmFQ&s",
+      "price": "$350/night",
+      "rating": 4.8,
+      "location": "Taj Ganj",
+      "description": "Heritage hotel with Mughal-inspired architecture",
+      "coordinates": {
+        "lat": 27.1751,
+        "lng": 78.0368
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "agr-h-3",
+      "name": "Tajview Agra",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/487385983.jpg?k=f177ab3efb34ac5a803a16b2c0865ee1bbeac5a94c6964f281381f2157c80f56&o=&hp=1",
+      "price": "$250/night",
+      "rating": 4.6,
+      "location": "Fatehabad Road",
+      "description": "Modern hotel offering Taj Mahal views",
+      "coordinates": {
+        "lat": 27.1668,
+        "lng": 78.0459
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "agr-h-4",
+      "name": "Radisson Hotel Agra",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9gHr4HdTL860j6tOWrTc-tP50TMczbwMg-g&s",
+      "price": "$200/night",
+      "rating": 4.5,
+      "location": "Fatehabad Road",
+      "description": "Contemporary hotel with great service",
+      "coordinates": {
+        "lat": 27.1787,
+        "lng": 78.0098
+      },
+      "type": "hotel"
+    }
+  ],
+  "mumbai": [
+    {
+      "id": "mum-h-1",
+      "name": "The Taj Mahal Palace",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/103705059.jpg?k=9e078265b31ad1815a573da8ed2a665f863e3925e1efd730df703421868a2ada&o=&hp=1",
+      "price": "$500/night",
+      "rating": 4.9,
+      "location": "Colaba",
+      "description": "Iconic luxury hotel overlooking the Gateway of India",
+      "coordinates": {
+        "lat": 18.9219,
+        "lng": 72.8331
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "mum-h-2",
+      "name": "The Oberoi Mumbai",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmXv-ocn8XOfBJwps1AilimnhUZS24oFGBDA&s",
+      "price": "$450/night",
+      "rating": 4.8,
+      "location": "Nariman Point",
+      "description": "Luxury hotel with ocean views and impeccable service",
+      "coordinates": {
+        "lat": 18.9286,
+        "lng": 72.8227
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "mum-h-3",
+      "name": "Trident Nariman Point",
+      "image": "https://www.trulyindiatours.com/wp-content/uploads/2021/09/8b275_Trident-Nariman-Point-8.jpg",
+      "price": "$400/night",
+      "rating": 4.7,
+      "location": "Nariman Point",
+      "description": "Modern luxury with excellent dining options",
+      "coordinates": {
+        "lat": 18.9256,
+        "lng": 72.8210
+      },
+      "type": "hotel"
+    },
+    {
+      "id": "mum-h-4",
+      "name": "ITC Grand Central",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxAvFulXifoofPfED5jQRpJkkECG8xQLzdnw&s",
+      "price": "$380/night",
+      "rating": 4.6,
+      "location": "Parel",
+      "description": "Luxury hotel with grand interiors and a serene atmosphere",
+      "coordinates": {
+        "lat": 19.0110,
+        "lng": 72.8416
+      },
+      "type": "hotel"
+    }
+  ]
+}
