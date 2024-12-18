@@ -142,5 +142,353 @@
       },
       "type": "activity"
     }
-  ]
+  ],
+  "delhi": [
+    {
+      "id": "del-a-1",
+      "name": "Old Delhi Heritage Walk",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Xw3abs35wh_e7RQzTUxKGA3esR4kvRHa-g&s",
+      "price": "$20/person",
+      "rating": 4.6,
+      "duration": "3 hours",
+      "description": "Explore the bustling streets and historic landmarks of Old Delhi",
+      "coordinates": {
+        "lat": 28.6562,
+        "lng": 77.2410
+      },
+      "type": "activity"
+    },
+    {
+      "id": "del-a-2",
+      "name": "Humayun's Tomb Visit",
+      "image": "https://images.squarespace-cdn.com/content/v1/6298cb774cf3830bc9b342bf/4d48d7b7-1da5-40be-a84e-613889a60161/The+Magnificent+Humayun%27s+Tomb.png",
+      "price": "$25/person",
+      "rating": 4.7,
+      "duration": "2 hours",
+      "description": "Guided tour of this World Heritage Site with rich Mughal architecture",
+      "coordinates": {
+        "lat": 28.5933,
+        "lng": 77.2507
+      },
+      "type": "activity"
+    },
+    {
+      "id": "del-a-3",
+      "name": "India Gate Night Tour",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/16/e0/7b/c2/picture-clicked-at-the.jpg",
+      "price": "$15/person",
+      "rating": 4.5,
+      "duration": "1.5 hours",
+      "description": "Evening walk through the India Gate area with illuminated views",
+      "coordinates": {
+        "lat": 28.6129,
+        "lng": 77.2295
+      },
+      "type": "activity"
+    },
+    {
+      "id": "del-a-4",
+      "name": "Delhi Street Food Tour",
+      "image": "https://afar.brightspotcdn.com/dims4/default/12794dc/2147483647/strip/false/crop/2500x1667+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fda%2Ff3%2F1894b566a3721db50ec473fcf399%2Foriginal-shutterstock-1294137358.jpg",
+      "price": "$30/person",
+      "rating": 4.8,
+      "duration": "3 hours",
+      "description": "Taste the best of Delhi's street food with a local guide",
+      "coordinates": {
+        "lat": 28.6507,
+        "lng": 77.2305
+      },
+      "type": "activity"
+    },
+    {
+      "id": "del-a-5",
+      "name": "Red Fort and Sound Show",
+      "image": "https://www.visittnt.com/blog/wp-content/uploads/2017/10/red-fort-1024x663.jpg",
+      "price": "$35/person",
+      "rating": 4.6,
+      "duration": "2 hours",
+      "description": "Evening sound and light show exploring the history of the Red Fort",
+      "coordinates": {
+        "lat": 28.6562,
+        "lng": 77.2410
+      },
+      "type": "activity"
+    }
+  ],
+  "mumbai": [
+    {
+      "id": "mum-a-1",
+      "name": "Gateway of India Tour",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/73/34.jpg",
+      "price": "$20/person",
+      "rating": 4.7,
+      "duration": "2 hours",
+      "description": "Discover the history of Mumbai's iconic landmark",
+      "coordinates": {
+        "lat": 18.9219,
+        "lng": 72.8347
+      },
+      "type": "activity"
+    },
+    {
+      "id": "mum-a-2",
+      "name": "Elephanta Caves Excursion",
+      "image": "https://i0.wp.com/mumbaidreamtours.com/wp-content/uploads/2017/04/elephanta-caves-collage-1024x558-1.jpg?fit=1024%2C558&ssl=1",
+      "price": "$50/person",
+      "rating": 4.6,
+      "duration": "4 hours",
+      "description": "Ferry trip and guided tour of ancient cave temples",
+      "coordinates": {
+        "lat": 18.9633,
+        "lng": 72.9311
+      },
+      "type": "activity"
+    },
+    {
+      "id": "mum-a-3",
+      "name": "Marine Drive Evening Walk",
+      "image": "https://i.ytimg.com/vi/FQINAGuleoU/maxresdefault.jpg",
+      "price": "$10/person",
+      "rating": 4.8,
+      "duration": "1.5 hours",
+      "description": "Stroll along the Queen's Necklace with scenic sea views",
+      "coordinates": {
+        "lat": 18.9430,
+        "lng": 72.8238
+      },
+      "type": "activity"
+    },
+    {
+      "id": "mum-a-4",
+      "name": "Bollywood Studio Tour",
+      "image": "https://bollywoodpark.in/img/tour/BollywoodStudioTour/09%20copy.jpg",
+      "price": "$60/person",
+      "rating": 4.5,
+      "duration": "5 hours",
+      "description": "Experience behind-the-scenes magic of Bollywood filmmaking",
+      "coordinates": {
+        "lat": 19.1750,
+        "lng": 72.8346
+      },
+      "type": "activity"
+    },
+    {
+      "id": "mum-a-5",
+      "name": "Dharavi Slum Tour",
+      "image": "https://i0.wp.com/mumbaidreamtours.com/wp-content/uploads/2018/10/44455257_2155629727795160_3912775868774088704_n.jpg?resize=960%2C639&ssl=1",
+      "price": "$30/person",
+      "rating": 4.9,
+      "duration": "3 hours",
+      "description": "Insightful tour of Asia's largest slum showcasing innovation and resilience",
+      "coordinates": {
+        "lat": 19.0419,
+        "lng": 72.8569
+      },
+      "type": "activity"
+    }
+  ],
+  "chennai": [
+    {
+      "id": "chn-a-2",
+      "name": "Mahabalipuram Heritage Tour",
+      "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/e2/ef/93.jpg",
+      "price": "$50/person",
+      "rating": 4.7,
+      "duration": "5 hours",
+      "description": "Guided tour of ancient UNESCO world heritage monuments.",
+      "coordinates": {
+        "lat": 12.6123,
+        "lng": 80.1956
+      },
+      "type": "activity"
+    },
+    {
+      "id": "chn-a-3",
+      "name": "Kapaleeshwarar Temple Visit",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/3e/4d/0f/caption.jpg?w=900&h=500&s=1",
+      "price": "$15/person",
+      "rating": 4.6,
+      "duration": "2 hours",
+      "description": "Explore the Dravidian-style architecture of this iconic temple.",
+      "coordinates": {
+        "lat": 13.0338,
+        "lng": 80.2691
+      },
+      "type": "activity"
+    },
+    {
+      "id": "chn-a-4",
+      "name": "Dakshinachitra Cultural Tour",
+      "image": "https://i.ytimg.com/vi/dXUt5dUZ-wU/maxresdefault.jpg",
+      "price": "$20/person",
+      "rating": 4.8,
+      "duration": "3 hours",
+      "description": "Immerse yourself in South Indian culture at Dakshinachitra.",
+      "coordinates": {
+        "lat": 12.8328,
+        "lng": 80.2450
+      },
+      "type": "activity"
+    },
+    {
+      "id": "chn-a-5",
+      "name": "Street Food Trail in Sowcarpet",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnzFElPJXrTvprDzymw7HUZV5j5-_ibid2ZQ&s",
+      "price": "$25/person",
+      "rating": 4.9,
+      "duration": "2 hours",
+      "description": "Savor the flavors of authentic Chennai street food.",
+      "coordinates": {
+        "lat": 13.0931,
+        "lng": 80.2811
+      },
+      "type": "activity"
+    }
+  ],
+  "goa": [
+  {
+    "id": "goa-a-1",
+    "name": "Dudhsagar Waterfalls Trek",
+    "image": "https://adventuresome.in/wp-content/uploads/2019/05/dudhsagar.jpeg",
+    "price": "$30/person",
+    "rating": 4.8,
+    "duration": "6 hours",
+    "description": "Scenic trek to the majestic Dudhsagar Falls.",
+    "coordinates": {
+      "lat": 15.3140,
+      "lng": 74.3142
+    },
+    "type": "activity"
+  },
+  {
+    "id": "goa-a-2",
+    "name": "Old Goa Churches Tour",
+    "image": "https://cdn.getyourguide.com/img/tour/5d422407d8343.jpeg/97.jpg",
+    "price": "$20/person",
+    "rating": 4.7,
+    "duration": "3 hours",
+    "description": "Explore UNESCO-listed churches of Old Goa.",
+    "coordinates": {
+      "lat": 15.5001,
+      "lng": 73.9116
+    },
+    "type": "activity"
+  },
+  {
+    "id": "goa-a-3",
+    "name": "Beach Yoga Session",
+    "image": "https://www.indianyogaassociation.com/images/yoga-teacher-training-goa.jpg",
+    "price": "$15/person",
+    "rating": 4.6,
+    "duration": "1 hour",
+    "description": "Relax and rejuvenate with yoga on the beach.",
+    "coordinates": {
+      "lat": 15.5426,
+      "lng": 73.7559
+    },
+    "type": "activity"
+  },
+  {
+    "id": "goa-a-4",
+    "name": "Water Sports at Calangute",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2022/4/OK/BP/XC/32213638/water-sports-in-calangute-beach-500x500.jpg",
+    "price": "$50/person",
+    "rating": 4.9,
+    "duration": "2 hours",
+    "description": "Experience thrilling water sports at Calangute Beach.",
+    "coordinates": {
+      "lat": 15.5433,
+      "lng": 73.7556
+    },
+    "type": "activity"
+  },
+  {
+    "id": "goa-a-5",
+    "name": "Spice Plantation Tour",
+    "image": "https://www.villacalangute.com/blog/spice-plantations-in-goa/spice-plantations-in-goa-large.jpg",
+    "price": "$30/person",
+    "rating": 4.7,
+    "duration": "3 hours",
+    "description": "Guided tour of lush spice plantations in Goa.",
+    "coordinates": {
+      "lat": 15.4003,
+      "lng": 74.0173
+    },
+    "type": "activity"
+  }
+],
+"kolkata": [
+  {
+    "id": "kol-a-1",
+    "name": "Victoria Memorial Tour",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNkGv3jtuc8o7qCQ8rWyrcP9xJXBAbSVEfTQ&s",
+    "price": "$15/person",
+    "rating": 4.8,
+    "duration": "2 hours",
+    "description": "Discover the colonial history of Kolkata at Victoria Memorial.",
+    "coordinates": {
+      "lat": 22.5448,
+      "lng": 88.3426
+    },
+    "type": "activity"
+  },
+  {
+    "id": "kol-a-2",
+    "name": "Howrah Bridge Walk",
+    "image": "https://thumbs.dreamstime.com/b/early-morning-scene-howrah-bridge-river-hooghly-kolkata-india-december-traffic-vendors-commuters-going-their-83320473.jpg",
+    "price": "$10/person",
+    "rating": 4.6,
+    "duration": "1 hour",
+    "description": "Scenic walk across the iconic Howrah Bridge.",
+    "coordinates": {
+      "lat": 22.5850,
+      "lng": 88.3461
+    },
+    "type": "activity"
+  },
+  {
+    "id": "kol-a-3",
+    "name": "Kumartuli Pottery Tour",
+    "image": "https://footlooseforever.com/wp-content/uploads/2010/09/idol-making-in-full-swing.jpg?w=640",
+    "price": "$20/person",
+    "rating": 4.7,
+    "duration": "2 hours",
+    "description": "Visit artisan workshops crafting Durga idols.",
+    "coordinates": {
+      "lat": 22.5985,
+      "lng": 88.3650
+    },
+    "type": "activity"
+  },
+  {
+    "id": "kol-a-4",
+    "name": "Sundarbans Day Tour",
+    "image": "https://img1.wsimg.com/isteam/ip/7e9509ec-f50c-4181-8a76-cd21fc367851/sundarban%20Jungle.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25",
+    "price": "$60/person",
+    "rating": 4.9,
+    "duration": "8 hours",
+    "description": "Explore the world's largest mangrove forest and spot wildlife.",
+    "coordinates": {
+      "lat": 21.9497,
+      "lng": 89.1833
+    },
+    "type": "activity"
+  },
+  {
+    "id": "kol-a-5",
+    "name": "Tram Ride through Heritage Kolkata",
+    "image": "https://i.ytimg.com/vi/2PZLo9-bnRg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC1_AN4GyMKl82HlDXCdxDQntUJAg",
+    "price": "$5/person",
+    "rating": 4.5,
+    "duration": "1 hour",
+    "description": "Experience Kolkata's vintage charm with a tram ride.",
+    "coordinates": {
+      "lat": 22.5667,
+      "lng": 88.3478
+    },
+    "type": "activity"
+  }
+]
+
+
 }

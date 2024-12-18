@@ -106,5 +106,160 @@
         "lng": 78.3812
       }
     }
+  ],
+  "kolkata": [
+    {
+      "id": "kol-t-1",
+      "name": "Airport Luxury Transfer",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq9NFEV3yBtjN1lBjiOFyQbPmXw4DuJQGaIg&s",
+      "price": "$40/trip",
+      "rating": 4.7,
+      "type": "transfer",
+      "description": "Premium sedans for seamless airport transfers",
+      "coordinates": {
+        "lat": 22.6452,
+        "lng": 88.4483
+      }
+    },
+    {
+      "id": "kol-t-2",
+      "name": "City Tour Cab Service",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNXunx8r8ztRLtHY2cbMGYXeJmOHHU1BjYQw&s",
+      "price": "$50/day",
+      "rating": 4.6,
+      "type": "tour",
+      "description": "Explore Kolkata's iconic landmarks comfortably",
+      "coordinates": {
+        "lat": 22.5726,
+        "lng": 88.3639
+      }
+    },
+    {
+      "id": "kol-t-3",
+      "name": "Luxury Van Hire",
+      "image": "https://www.onlinebusbookingindia.com/uploads/18679_hqdefault.jpg",
+      "price": "$120/day",
+      "rating": 4.8,
+      "type": "group",
+      "description": "Spacious vans for group travel",
+      "coordinates": {
+        "lat": 22.5726,
+        "lng": 88.3639
+      }
+    }
+  ],
+  "delhi": [
+    {
+      "id": "del-t-1",
+      "name": "Heritage Site Day Tour",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu5ZzYHGXW_5qoeS92VOsBJIXrbjp2jM8C6g&s",
+      "price": "$60/day",
+      "rating": 4.7,
+      "type": "tour",
+      "description": "Visit iconic spots like India Gate and Qutub Minar",
+      "coordinates": {
+        "lat": 28.6139,
+        "lng": 77.2090
+      }
+    },
+    {
+      "id": "del-t-2",
+      "name": "Corporate Transfers",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6od7T6XHEmKAO3TDjtoKTX16D115FPAooUA&s",
+      "price": "$90/day",
+      "rating": 4.8,
+      "type": "business",
+      "description": "Comfortable sedans for business travelers",
+      "coordinates": {
+        "lat": 28.6139,
+        "lng": 77.2090
+      }
+    }
+  ],
+  "mumbai": [
+    {
+      "id": "mum-t-1",
+      "name": "City Landmark Tour",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmC4QBjHYJri4PpsiEEhZbafMEdX3__z_ECw&s",
+      "price": "$70/day",
+      "rating": 4.6,
+      "type": "tour",
+      "description": "Tour Mumbai’s attractions like Gateway of India",
+      "coordinates": {
+        "lat": 19.0760,
+        "lng": 72.8777
+      }
+    },
+    {
+      "id": "mum-t-2",
+      "name": "Airport Transfer Service",
+      "image": "https://saiexpresstravels.com/uploads/page-images/1705735882_36.jpg",
+      "price": "$50/trip",
+      "rating": 4.7,
+      "type": "transfer",
+      "description": "Luxury cars for convenient airport transfers",
+      "coordinates": {
+        "lat": 19.0896,
+        "lng": 72.8656
+      }
+    }
+  ],
+  "chennai": [
+    {
+      "id": "che-t-1",
+      "name": "Marina Beach Tour",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVaDAtB_hIyLPQ-9MhdJsWmvegY2TJnDqHig&s",
+      "price": "$45/day",
+      "rating": 4.5,
+      "type": "tour",
+      "description": "Explore Chennai’s scenic Marina Beach",
+      "coordinates": {
+        "lat": 13.0827,
+        "lng": 80.2707
+      }
+    },
+    {
+      "id": "che-t-2",
+      "name": "Airport Transfer Service",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdmM3Jy_WK8yZ-J1tNkHXCdlaw0qNozJQRCQ&s",
+      "price": "$30/trip",
+      "rating": 4.6,
+      "type": "transfer",
+      "description": "Affordable airport transfers",
+      "coordinates": {
+        "lat": 13.0827,
+        "lng": 80.2707
+      }
+    }
+  ],
+  "goa": [
+    {
+      "id": "goa-t-1",
+      "name": "Beachside Transfers",
+      "image": "https://c8.alamy.com/comp/ET10EB/ferry-boat-crossing-river-mandovi-at-velha-goa-india-ET10EB.jpg",
+      "price": "$50/trip",
+      "rating": 4.8,
+      "type": "transfer",
+      "description": "Transport to Goa's stunning beaches",
+      "coordinates": {
+        "lat": 15.2993,
+        "lng": 74.1240
+      }
+    }
+  ],
+  "agra": [
+    {
+      "id": "agr-t-1",
+      "name": "Taj Mahal Day Tour",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6c/2b/f2.jpg",
+      "price": "$60/day",
+      "rating": 4.9,
+      "type": "tour",
+      "description": "Full day tour to the Taj Mahal and Agra Fort",
+      "coordinates": {
+        "lat": 27.1751,
+        "lng": 78.0421
+      }
+    }
   ]
 }
